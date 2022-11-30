@@ -1,0 +1,7 @@
+.lead__caption {
+  /* align-self: flex-start; */
+  /* padding-left: 148px; */
+  align-self: flex-start;
+  margin: 0;
+  /* margin-left: calc((1280px - 984px)/2); */
+}
