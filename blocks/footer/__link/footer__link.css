@@ -1,0 +1,9 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer__link:nth-last-child(1) {
+  margin-right: 0;
+}
