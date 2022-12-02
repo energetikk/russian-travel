@@ -1,9 +1,11 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 0 448px 0 148px;
+  margin: 0;
+  margin-left: 148px;
+  padding-top: 92px;
   align-items: flex-start;
   max-width: 690px;
-  min-height: 208px;
+  min-height: 429px;
   /* margin: 0; */
 }

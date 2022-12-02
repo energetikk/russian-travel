@@ -1,12 +1,17 @@
 .cover {
-  display: inline-block;
+  display: flex;
   max-width: 1184px;
-  max-height: 740px;
-  width: 100%;
-  border: 5px red solid;
+  min-height: 740px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   background-image: url(../../images/from_baykal_by_dogs.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
+
+
+
+
