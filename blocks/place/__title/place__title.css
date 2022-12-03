@@ -4,6 +4,6 @@ font-size: 72px;
 line-height: 76px;
 font-family: "Inter", "Arial", sans-serif;
 margin: 0;
-margin-bottom: 48px;
-align-self: end;
+/* margin-bottom: 48px; */
+align-self: flex-start;
 }

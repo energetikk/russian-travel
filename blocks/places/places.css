@@ -1,0 +1,10 @@
+.places {
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  padding-top: 92px;;
+}

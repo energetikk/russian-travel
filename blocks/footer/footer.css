@@ -1,5 +1,10 @@
 .footer {
+  max-width: calc(1280px - 48px*2);
+  min-height: 18px;
   display: flex;
+  margin: auto;
+  margin-bottom: 24px;
   justify-content: space-between;
   align-items: center;
+  margin-top: 92px;
 }
