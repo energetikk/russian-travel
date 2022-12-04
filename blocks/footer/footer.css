@@ -8,3 +8,10 @@
   align-items: center;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: calc(100% - 24px*2);
+    margin-top: 88px;
+  }
+}

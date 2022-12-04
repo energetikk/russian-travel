@@ -7,7 +7,7 @@
   align-items: center;
   margin: 0 auto;
   padding-bottom: 92px;
-  padding-top: 92px;;
+  padding-top: 92px;
   box-sizing: border-box;
 }
 
@@ -16,5 +16,14 @@
   .places {
     max-width: calc(100% - 48px*2);
     gap: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc(100% - 24px*2);
+    gap: 73px;
+    padding-top: 88px;
+    padding-bottom: 90px;
   }
 }
