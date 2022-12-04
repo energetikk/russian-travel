@@ -9,4 +9,5 @@
   grid-template-rows: repeat(auto-fit, 1fr);
   gap: 16px;
   box-sizing: border-box;
+  justify-content: center;
 }
