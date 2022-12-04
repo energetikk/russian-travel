@@ -1,12 +1,20 @@
 .place {
-  max-width: 984px;
+  max-width: 100%;
   min-height: 584px;
   margin: 0 auto;
-  /* padding-top: 92px; */
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px auto;
   grid-template-rows: repeat(200px, 1fr);
   gap: 48px 40px;
-  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px auto;
+    grid-template-rows: repeat(200px, 1fr);
+    gap: 48px 32px;
+    min-height: 560px;
+    max-width: 100%;
+  }
 }

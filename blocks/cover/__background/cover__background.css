@@ -1,1 +1,46 @@
+.cover__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../images/from_baykal_by_dogs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
 
+.cover__background::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  opacity: 0.3;
+  transition: opacity .3s ease-in-out;
+}
+
+.cover__background:hover::before {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    max-width: 100%;
+    min-height: 480px;
+  }
+}

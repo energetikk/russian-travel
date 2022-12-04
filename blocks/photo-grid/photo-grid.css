@@ -1,13 +1,30 @@
 .photo-grid {
   display: grid;
-  max-width: calc(1280px - 48px*2);
+  max-width: calc(100% - 48px*2);
   margin: 0 auto;
   padding: 0;
   padding-top: 92px;
-  /* grid-template-columns: repeat(4, 25%); */
   grid-template-columns: repeat(auto-fit, 284px);
   grid-template-rows: repeat(auto-fit, 1fr);
   gap: 16px;
   box-sizing: border-box;
   justify-content: center;
+}
+
+.photo-grid__item {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 225px);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
 }
