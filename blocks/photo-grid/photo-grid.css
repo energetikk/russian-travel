@@ -29,3 +29,15 @@
     gap: 16px;
   }
 }
+
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    max-width: calc(100% - 16px*2);
+    margin: 0 auto;
+    padding-top: 64px;
+    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-rows: repeat(auto-fit, 216px);
+    gap: 12px;
+  }
+}

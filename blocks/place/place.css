@@ -31,3 +31,21 @@
 
   }
 }
+
+@media screen and (max-width: 695px) {
+  .place {
+    grid-template-columns: 1fr;
+    margin: 0;
+    column-gap: 28px;
+    min-height: 434px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px 0;
+    /* min-height: px; */
+
+  }
+}

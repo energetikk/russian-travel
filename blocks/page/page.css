@@ -11,9 +11,16 @@
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .page {
+    max-width: 695px;
   }
 }
 
@@ -22,3 +29,4 @@
     max-width: 320px;
   }
 }
+

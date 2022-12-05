@@ -3,7 +3,7 @@
   margin: 0;
   margin-bottom: 64px;
   max-width: 640px;
-  min-height: 72px;
+  /* min-height: 72px; */
   font-family: 'Inter';
   font-weight: 400;
   font-size: 30px;
@@ -16,8 +16,19 @@
   }
 }
 
+@media screen and (max-width: 695px) {
+  .lead__subtitle {
+    max-width: 500px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
+
