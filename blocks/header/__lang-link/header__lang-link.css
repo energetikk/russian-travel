@@ -3,10 +3,14 @@
   font-size: 24px;
   line-height: 28px;
   font-family: "Inter", "Arial", sans-serif;
-
   text-decoration: none;
   color: white;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
 
+.header__lang-link:hover {
+  opacity: .5;
 }
 
 @media screen and (max-width: 320px) {

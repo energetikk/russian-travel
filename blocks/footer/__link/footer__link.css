@@ -8,6 +8,12 @@
   font-size: 16px;
   line-height: 18px;
   font-family: "Inter", "Arial", sans-serif;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.footer__link:hover {
+  opacity: .5;
 }
 
 .footer__link:nth-last-child(1) {
