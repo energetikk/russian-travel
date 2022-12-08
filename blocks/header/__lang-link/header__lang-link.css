@@ -9,6 +9,10 @@
   transition: opacity .2s linear;
 }
 
+.header__lang-link:nth-last-child(1) {
+  margin-left: 18px;
+}
+
 .header__lang-link:hover {
   opacity: .5;
 }

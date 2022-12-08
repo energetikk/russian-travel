@@ -1,5 +1,6 @@
 .header__lang {
-  margin-bottom: 6px;
+  display: flex;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 320px) {
