@@ -36,8 +36,4 @@
     margin-bottom: 32px;
     font-size: 24px;
   }
-
-  .footer__link:nth-last-child(1) {
-    margin: 0;
-  }
 }
