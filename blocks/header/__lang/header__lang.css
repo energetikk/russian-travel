@@ -1,10 +1,4 @@
 .header__lang {
   display: flex;
-  margin-bottom: 5px;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-link {
-    margin-bottom: 8px;
-  }
+  margin: 0 0 5px;
 }

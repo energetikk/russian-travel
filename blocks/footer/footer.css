@@ -28,6 +28,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     max-width: calc(100% - 16px*2);
-    margin: 64px 16px 48px;
+    margin: 64px 16px 24px;
   }
 }
